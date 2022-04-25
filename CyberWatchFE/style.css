@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url('endless-constellation.svg');
+    font-family: sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: table;
+    margin: auto;
+}
+
+h2 {
+    display: flex;
+    color: #fff;
+    font-family: 'Press Start 2P';
+    justify-content: center;
+}
+
+
+form input {
+    font-size: 2rem;
+    padding: 4px;
+}
+
+form button {
+    margin-left: 20px;
+    padding: 16px 20px;
+    background-color: #4839d2;
+    font-weight: 700;
+    border: 1px transparent;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+#title{
+    display:none;
+}

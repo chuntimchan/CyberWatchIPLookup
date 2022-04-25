@@ -1,0 +1,74 @@
+<html>
+<head>
+  <!-- your head stuff in here -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ 
+  <h1 id = "title">Cyber Watch</h1>
+  
+  <div class="form-inline">
+    <input type='text' id='ip-input'>
+    <button id='submit-button'>Submit</button>
+  </div>
+  
+  <p id='output'></p>
+
+  <div class="container">
+
+  <table>
+    <tr>
+        <th>IP:</th>
+        <td id="ip"></td>
+    </tr>
+    <tr>
+        <th>Whitelisted</th>
+        <td id="whitelisted"></td>
+    </tr>
+    <tr>
+        <th>Country</th>
+        <td id="country"></td>
+    </tr>
+    <tr>
+        <th>ISP</th>
+        <td id="isp"></td>
+    </tr>
+    <tr>
+        <th>Domain</th>
+        <td id="domain"></td>
+    </tr>
+    <tr>
+        <th>Distinct Users</th>
+        <td id="distinctUsers"></td>
+    </tr>
+    <tr>
+        <th>Total Reports</th>
+        <td id="reports"></td>
+    </tr>
+    <tr>
+        <th>Abuse Confidence Score</th>
+        <td id="abuseScore"></td>
+    </tr>
+</table>
+</div>
+
+  
+<div class="row">
+  <div class="column">
+    <p class="distinct">Total Reports:</p>
+    <span id="totalReports"></span>
+  </div>
+  <div class="column">
+    <p class="distinct">Whitelisted:</p>
+    <img src="images/cross.png" alt="Green Tick" id="img-whitelist">
+  </div>
+  <div class="column">
+    <p class="distinct">Distinct Number of Users:</p>
+    <span id="numUsers"></span>
+  </div>
+</div>
+
+  <script src='https://unpkg.com/axios/dist/axios.min.js'></script>
+  <script src='./index.js'></script>
+</body>
+</html>
