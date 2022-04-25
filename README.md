@@ -9,6 +9,8 @@ Front-End
 
 The front end consists of index.html, index.css and index.js . The front end is relatively simple, it formats the information given through the ip lookup AbuseIPDB API and displays it nicely on the web application.
 
+![Preview of FrontEnd](https://github.com/SilverStoneBBQ/CyberWatchIPLookup/blob/main/CyberWatchSS1.PNG?raw=true)
+
 
 Back-End Setup
 
