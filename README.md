@@ -1,6 +1,7 @@
 # IBM Hackathon Project - Cyber Watch
 
 This project was created during an IBM Hackathon hosted by Ulster University.
+
 Project outline: https://hackathon-docs.pages.dev/docs/intro
 
 
