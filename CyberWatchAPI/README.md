@@ -1,9 +1,6 @@
 # Hackathon Example API
 
-This is a FastAPI project that you can use to get started with your project.
-Included is an example of calling an API, and I've pre-configured CORS for
-React. You can change your allowed origins based on what port your development
-server uses.
+Back-end setup previously mentioned in the main Read.Me file
 
 ## Setup
 
@@ -17,7 +14,7 @@ python3 -m venv venv
 Then activate the virutal environment:
 
 ```shell
-source venv/bin/activate
+./venv/scripts/activate
 ```
 
 Install all the packages listed in the `requirements.txt` file.
