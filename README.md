@@ -5,7 +5,7 @@ This project was created during an IBM Hackathon hosted by Ulster University.
 Project outline: https://hackathon-docs.pages.dev/docs/intro
 
 
-Front-End
+# Front-End
 
 The front end consists of index.html, index.css and index.js . The front end is relatively simple, it formats the information given through the ip lookup AbuseIPDB API and displays it nicely on the web application.
 
@@ -14,7 +14,7 @@ I used VS Code's Live Server extension to make my html page go live at localhost
 ![Preview of FrontEnd](https://github.com/SilverStoneBBQ/CyberWatchIPLookup/blob/main/CyberWatchIPLookup2.jpg?raw=true)
 
 
-Back-End Setup
+# Back-End Setup
 
 This is a FastAPI project that allows us to access information from AbuseIPDB bypassing CORS.
 
