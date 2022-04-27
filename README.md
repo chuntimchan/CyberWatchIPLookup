@@ -18,6 +18,9 @@ This is a FastAPI project that allows us to access information from AbuseIPDB by
 
 This file shows how to setup the backend which is used by the front-end project. 
 
+For this to work you would need to make your front-end go live at localhost:5500 to allow our code which works around CORS to work.
+You will also need to change the API key to your API key, you could either put an env file in or directly manipulate it and set the api variable to your API key string.
+
 ## Setup - Windows
 
 To get started, you will need to create a virtual environment where your packages will live.
